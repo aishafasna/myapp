@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:padding="8dp">
+
+
+                    <TextView
+                        android:id="@+id/rname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+
+                        android:text="Name"
+
+                        android:textColor="#000000" />
+                    <TextView
+                        android:id="@+id/rphone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rname"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:text="phone id"
+                        />
+                    <TextView
+                        android:id="@+id/remail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rphone"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:text="email id"
+                        />
+                    <TextView
+                        android:id="@+id/rcollege"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/remail"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:text="email id"
+                        />
+                    <TextView
+                        android:id="@+id/rsource"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rcollege"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:text="source"
+                        />
+                    <TextView
+                        android:id="@+id/rcourse"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rsource"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:text="course"
+                        />
+                    <TextView
+                        android:id="@+id/rstatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rcourse"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:text="status"
+                        />
+                    <TextView
+                        android:id="@+id/rreg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rstatus"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:text="reg_date"
+                        />
+                    <TextView
+                        android:id="@+id/rcomment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rreg"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:text="comment"
+                        />
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
